@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  font-size: larger;
+}
+
+textarea {
+  margin-top: 20px;
+}
+
+/* ----------- Tampil.php ----------- */
+
+thead tr {
+  background-color: #c9d0e0;
+  color: black;
+}
+
+th {
+  padding: 10px 5px;
+}
+
+td {
+  height: 40px;
+  border-bottom: 1px solid grey;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+
+  background-image: linear-gradient(to top right, rgb(28, 28, 29), rgb(0, 0, 0));
+  color: white;
+  margin-bottom: 10px;
+}
+
+.judul {
+  display: flex;
+  align-items: center;
+}
+
+.akun {
+  display: flex;
+  align-items: center;
+}
+
+.akun p {
+  padding-right: 50px;
+}
+
+.akun a{
+  text-decoration: none;
+  color: white;
+}
+
+table {
+  width: 100%;
+}
+table a {
+  padding: 10px;
+  border-radius: 5px;
+}
+.judul {
+  color: white;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+}
+
+.input{
+  margin: 10px 0px;
+  padding: 10px 5px;
+  width: 55%;
+  border: 1px solid white;
+  padding-left: 10px;
+  background-color: rgb(198, 198, 198);
+  color: rgb(59, 59, 59);
+}
+
+.cari{
+  margin-top: 10px;
+  padding: 10px;
+  width: 100px;
+  border: 1px solid;
+  border-radius: 50px;
+
+  font-size: medium;
+
+  background-color: rgb(21, 22, 22);
+  color: white;
+}
+.cari:hover {
+  background-color: rgb(39, 44, 41);
+}
+
+
+.form-class {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.form-text {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0px 20px;
+}
+.list-table {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button */
+.tambah {
+  text-decoration: none;
+  padding: 8px 5px;
+  border-radius: 5px;
+  background-color: rgb(15, 225, 68);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.tambah:hover {
+  background-color: rgb(11, 158, 48);
+}
+
+.edit a {
+  background-color: orange;
+  color: white;
+}
+.edit a:hover {
+  background-color: rgb(223, 145, 0);
+}
+.hapus a {
+  background-color: red;
+  color: white;
+}
+.hapus a:hover {
+  background-color: rgb(179, 0, 0);
+}
+.btn-submit {
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  font-size: larger;
+  border-style: none;
+  border-radius: 10px;
+  background-color: rgb(0, 155, 216);
+  color: white;
+}
+
+.btn-submit:hover {
+  background-color: rgb(1, 126, 175);
+}
